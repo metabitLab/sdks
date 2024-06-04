@@ -1,9 +1,11 @@
 {
-  "name": "@uniswap/sdk-core",
-  "description": "⚒️ An SDK for building applications on top of Uniswap V3",
-  "repository": "https://github.com/Uniswap/sdks.git",
+  "name": "@taibiex/sdk-core",
+  "description": "⚒️ An SDK for building applications on top of Taibiex",
+  "version": "0.0.1",
+  "main": "dist/index.js",
+  "repository": "https://github.com/metabitLab/sdks.git",
   "keywords": [
-    "uniswap",
+    "Taibiex",
     "ethereum"
   ],
   "license": "MIT",
@@ -18,8 +20,6 @@
   },
   "scripts": {
     "build": "tsdx build",
-    "lint": "tsdx lint src",
-    "release": "semantic-release",
     "start": "tsdx watch",
     "test": "tsdx test"
   },
