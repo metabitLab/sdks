@@ -1,5 +1,5 @@
 export enum ChainId {
-  MAINNET = 1,
+  MAINNET = 9789,
   GOERLI = 5,
   SEPOLIA = 11155111,
   OPTIMISM = 10,
