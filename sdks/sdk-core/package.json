@@ -1,7 +1,7 @@
 {
   "name": "@taibiex/sdk-core",
   "description": "⚒️ An SDK for building applications on top of Taibiex",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "main": "dist/index.js",
   "repository": "https://github.com/metabitLab/sdks.git",
   "keywords": [
@@ -9,7 +9,6 @@
     "ethereum"
   ],
   "license": "MIT",
-  "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "module": "dist/sdk-core.esm.js",
   "files": [
