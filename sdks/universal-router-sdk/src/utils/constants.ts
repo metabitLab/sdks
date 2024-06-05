@@ -10,7 +10,7 @@ const WETH_NOT_SUPPORTED_ON_CHAIN = '0x0000000000000000000000000000000000000000'
 
 const CHAIN_CONFIGS: { [key: number]: ChainConfig } = {
   // mainnet
-  [1]: {
+  [9789]: {
     router: '0x3fC91A3afd70395Cd496C647d5a6CC9D4B2b7FAD',
     weth: '0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2',
     creationBlock: 17143817,

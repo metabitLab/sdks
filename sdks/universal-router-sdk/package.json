@@ -1,9 +1,10 @@
 {
-  "name": "@uniswap/universal-router-sdk",
-  "description": "sdk for integrating with the Universal Router contracts",
-  "repository": "https://github.com/Uniswap/sdks.git",
+  "name": "@taibiex/universal-router-sdk",
+  "description": "sdk for integrating with the Taibiex Router contracts",
+  "repository": "https://github.com/metabitLab/sdks.git",
+  "version": "0.0.1",
   "keywords": [
-    "uniswap",
+    "Taibiex",
     "ethereum"
   ],
   "license": "MIT",
