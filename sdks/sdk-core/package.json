@@ -1,7 +1,7 @@
 {
   "name": "@taibiex/sdk-core",
   "description": "⚒️ An SDK for building applications on top of Taibiex",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "main": "dist/index.js",
   "repository": "https://github.com/metabitLab/sdks.git",
   "keywords": [
