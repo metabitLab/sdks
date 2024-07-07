@@ -78,10 +78,10 @@ export const V2_ROUTER_ADDRESSES: AddressMap = {
 
 const DEFAULT_ADDRESSES: ChainAddresses = {
   v3CoreFactoryAddress: '0x11cAC87e2c883862bDaa1738e5178cdeF1f46104',
-  multicallAddress: '0x2cCC6635E78E841D0A480fAdbee716fd11E8417b',
-  quoterAddress: '0x64f7E1F83a1fC38f15DFb74f2a8e1CB2d97B033F',
+  multicallAddress: '0x53263998abd85FeD8892a261840eDc1B5B502B6E',
+  quoterAddress: '0x0e763cB0dE04266c525375456b7146771C7502Aa',
   v3MigratorAddress: '0xcDc10593a66185AAa206665C5083ac51Ad935F91',
-  nonfungiblePositionManagerAddress: '0x8e46DefA1B20Fba826340d8d1a5Ba0dd2fa1e611',
+  nonfungiblePositionManagerAddress: '0xbB7Aa80d7D44A6C17EC3790341BFD7b5F706D4db',
 }
 
 const MAINNET_ADDRESSES: ChainAddresses = {
