@@ -3887,6 +3887,35 @@ __metadata:
   languageName: unknown
   linkType: soft
 
+"@taibiex/universal-router-sdk@workspace:sdks/universal-router-sdk":
+  version: 0.0.0-use.local
+  resolution: "@taibiex/universal-router-sdk@workspace:sdks/universal-router-sdk"
+  dependencies:
+    "@types/chai": ^4.3.3
+    "@types/mocha": ^9.1.1
+    "@types/node": ^18.7.16
+    "@types/node-fetch": ^2.6.2
+    "@uniswap/permit2-sdk": ^1.2.1
+    "@uniswap/router-sdk": ^1.9.2
+    "@uniswap/sdk-core": ^5.0.0
+    "@uniswap/universal-router": 1.6.0
+    "@uniswap/v2-sdk": ^4.3.2
+    "@uniswap/v3-sdk": ^3.11.2
+    bignumber.js: ^9.0.2
+    chai: ^4.3.6
+    dotenv: ^16.0.3
+    eslint-plugin-prettier: ^3.4.1
+    ethers: ^5.7.0
+    hardhat: ^2.14.0
+    prettier: ^2.4.1
+    ts-node: ^10.9.1
+    tsdx: ^0.14.1
+    tslib: ^2.3.0
+    typedoc: ^0.21.2
+    typescript: ^4.3.3
+  languageName: unknown
+  linkType: soft
+
 "@tootallnate/once@npm:2":
   version: 2.0.0
   resolution: "@tootallnate/once@npm:2.0.0"
@@ -4701,35 +4730,6 @@ __metadata:
     ts-jest: 25.5.0
     ts-node: ^10.9.1
     typechain: ^8.1.0
-    typescript: ^4.3.3
-  languageName: unknown
-  linkType: soft
-
-"@uniswap/universal-router-sdk@workspace:sdks/universal-router-sdk":
-  version: 0.0.0-use.local
-  resolution: "@uniswap/universal-router-sdk@workspace:sdks/universal-router-sdk"
-  dependencies:
-    "@types/chai": ^4.3.3
-    "@types/mocha": ^9.1.1
-    "@types/node": ^18.7.16
-    "@types/node-fetch": ^2.6.2
-    "@uniswap/permit2-sdk": ^1.2.1
-    "@uniswap/router-sdk": ^1.9.2
-    "@uniswap/sdk-core": ^5.0.0
-    "@uniswap/universal-router": 1.6.0
-    "@uniswap/v2-sdk": ^4.3.2
-    "@uniswap/v3-sdk": ^3.11.2
-    bignumber.js: ^9.0.2
-    chai: ^4.3.6
-    dotenv: ^16.0.3
-    eslint-plugin-prettier: ^3.4.1
-    ethers: ^5.7.0
-    hardhat: ^2.14.0
-    prettier: ^2.4.1
-    ts-node: ^10.9.1
-    tsdx: ^0.14.1
-    tslib: ^2.3.0
-    typedoc: ^0.21.2
     typescript: ^4.3.3
   languageName: unknown
   linkType: soft
