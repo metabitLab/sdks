@@ -1,8 +1,8 @@
 {
   "name": "@taibiex/v3-sdk",
-  "version": "0.0.1",
   "description": "⚒️ An SDK for building applications on top of Uniswap V3",
   "repository": "https://github.com/Uniswap/sdks.git",
+  "version": "0.0.3",
   "keywords": [
     "uniswap",
     "ethereum"

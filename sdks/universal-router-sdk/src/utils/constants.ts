@@ -11,9 +11,9 @@ const WETH_NOT_SUPPORTED_ON_CHAIN = '0x0000000000000000000000000000000000000000'
 const CHAIN_CONFIGS: { [key: number]: ChainConfig } = {
   // mainnet
   [9789]: {
-    router: '0x3fC91A3afd70395Cd496C647d5a6CC9D4B2b7FAD',
-    weth: '0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2',
-    creationBlock: 17143817,
+    router: '0x8ba0C0a808d038d6c1cc87AA6A76675C5ff10aB0',
+    weth: '0x6290B1Db448306a4422A78C28A52E30FEE68cF76',
+    creationBlock: 387961,
   },
   // goerli
   [5]: {
@@ -112,16 +112,21 @@ const CHAIN_CONFIGS: { [key: number]: ChainConfig } = {
 }
 
 export const UNIVERSAL_ROUTER_ADDRESS = (chainId: number): string => {
+  console.log("check_weth_address:", chainId)
   if (!(chainId in CHAIN_CONFIGS)) throw new Error(`Universal Router not deployed on chain ${chainId}`)
   return CHAIN_CONFIGS[chainId].router
 }
 
 export const UNIVERSAL_ROUTER_CREATION_BLOCK = (chainId: number): number => {
+  console.log("check_ROUTER_weth_address123:", chainId)
+
   if (!(chainId in CHAIN_CONFIGS)) throw new Error(`Universal Router not deployed on chain ${chainId}`)
   return CHAIN_CONFIGS[chainId].creationBlock
 }
 
 export const WETH_ADDRESS = (chainId: number): string => {
+  console.log("check_weth_address45666:", chainId)
+
   if (!(chainId in CHAIN_CONFIGS)) throw new Error(`Universal Router not deployed on chain ${chainId}`)
 
   if (CHAIN_CONFIGS[chainId].weth == WETH_NOT_SUPPORTED_ON_CHAIN) throw new Error(`Chain ${chainId} does not have WETH`)

@@ -1,4 +1,4 @@
-import { Price, Token } from '@uniswap/sdk-core'
+import { Price, Token } from '@taibiex/sdk-core'
 import { tickToPrice } from './index'
 import { priceToClosestTick } from './priceTickConversions'
 

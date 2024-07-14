@@ -1,11 +1,12 @@
 {
-  "name": "@uniswap/router-sdk",
+  "name": "@taibiex/router-sdk",
   "description": "An sdk for routing swaps using Uniswap v2 and Uniswap v3.",
   "repository": "https://github.com/Uniswap/sdks.git",
   "keywords": [
     "uniswap",
     "ethereum"
   ],
+  "version": "0.0.3",
   "license": "MIT",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -21,10 +22,10 @@
   },
   "dependencies": {
     "@ethersproject/abi": "^5.5.0",
-    "@uniswap/sdk-core": "^5.0.0",
-    "@uniswap/swap-router-contracts": "^1.3.0",
-    "@uniswap/v2-sdk": "^4.3.2",
-    "@uniswap/v3-sdk": "^3.11.2"
+    "@taibiex/sdk-core": "^0.0.8",
+    "@taibiex/v2-sdk": "0.0.2",
+    "@taibiex/v3-sdk": "0.0.3",
+    "@uniswap/swap-router-contracts": "^1.3.0"
   },
   "devDependencies": {
     "@types/jest": "^24.0.25",
