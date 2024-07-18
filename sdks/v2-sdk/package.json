@@ -32,9 +32,9 @@
     "tiny-warning": "^1.0.3"
   },
   "devDependencies": {
+    "@taibiex/v2-core": "^1.0.0",
     "@types/big.js": "^4.0.5",
     "@types/jest": "^24.0.25",
-    "@uniswap/v2-core": "^1.0.1",
     "eslint-config-react-app": "7.0.1",
     "tsdx": "^0.14.1"
   },
