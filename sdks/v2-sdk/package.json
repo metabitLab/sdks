@@ -2,7 +2,7 @@
   "name": "@taibiex/v2-sdk",
   "description": "🛠 An SDK for building applications on top of Uniswap V2",
   "repository": "https://github.com/Uniswap/sdks.git",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "keywords": [
     "uniswap",
     "ethereum"
